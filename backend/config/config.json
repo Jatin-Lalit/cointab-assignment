@@ -1,9 +1,10 @@
 {
+  
   "development": {
-    "username": "root",
-    "password": "root",
+    "username": "admin",
+    "password": "JATINlalit12345",
     "database": "cointab",
-    "host": "localhost",
+    "host": "cointab-assignment-rds.cxo80k8m40u1.ap-southeast-2.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
