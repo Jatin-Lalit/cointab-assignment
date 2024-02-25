@@ -58,23 +58,23 @@ The Post Page fetches data from the API ('https://jsonplaceholder.typicode.com/p
 
 ## API Endpoints
 # User Endpoints
-1 Add User
- Endpoint: POST user/add/user
- Description: Adds a new user to the system if the user with the provided user_id does not already exist.
+1 Add User<br>
+ Endpoint: POST user/add/user<br>
+ Description: Adds a new user to the system if the user with the provided user_id does not already exist.<br>
 
-2 Get User
-Endpoint: GET user/get/user
-Description: Retrieves user information based on the provided user_id.
-Query Parameters:
-user_id: The unique identifier of the user.
+2 Get User<br>
+Endpoint: GET user/get/user<br>
+Description: Retrieves user information based on the provided user_id.<br>
+Query Parameters:<br>
+user_id: The unique identifier of the user.<br>
 
 # User Post Endpoints
-1 Bulk Add Posts
-Endpoint: POST post/bulkAdd
-Description: Adds multiple posts for a specific user if no posts exist for that user.
+1 Bulk Add Posts <br>
+Endpoint: POST post/bulkAdd<br>
+Description: Adds multiple posts for a specific user if no posts exist for that user.<br>
 
-2 Check Existing Posts
-Endpoint: GET post/bulkAdd/present
-Description: Checks if posts exist for a specific user.
-Query Parameters:
+2 Check Existing Posts<br>
+Endpoint: GET post/bulkAdd/present<br>
+Description: Checks if posts exist for a specific user.<br>
+Query Parameters:<br>
 user_id: The unique identifier of the user.
