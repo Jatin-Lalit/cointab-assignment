@@ -56,8 +56,8 @@ The Post Page fetches data from the API ('https://jsonplaceholder.typicode.com/p
 - AWS RDS
 
 
-## API Endpoints
-# User Endpoints
+# API Endpoints
+## User Endpoints
 1 Add User<br>
  Endpoint: POST user/add/user<br>
  Description: Adds a new user to the system if the user with the provided user_id does not already exist.<br>
@@ -68,7 +68,7 @@ Description: Retrieves user information based on the provided user_id.<br>
 Query Parameters:<br>
 user_id: The unique identifier of the user.<br>
 
-# User Post Endpoints
+## User Post Endpoints
 1 Bulk Add Posts <br>
 Endpoint: POST post/bulkAdd<br>
 Description: Adds multiple posts for a specific user if no posts exist for that user.<br>
