@@ -17,8 +17,8 @@ async function fetchAllUsers() {
                     <div class="user-info"><strong>Website:</strong> ${user.website}</div>
                     <div class="user-info"><strong>City:</strong> ${user.address.city}</div>
                     <div class="user-info"><strong>Company:</strong> ${user.company.name}</div>
-                    <button id="add_button_${user.id}" style="background-color: green; color: white;display: none;" onclick="addUser('${user.id}', '${user.name}', '${user.email}', '${user.phone}', '${user.website}', '${user.address.city}', '${user.company.name}')">Add</button>
-                    <button id="open_button_${user.id}" style="display: block; background-color: yellow; color: black;" onclick="openUser(${user.id}, '${user.name}', '${user.company.name}')">Open</button>
+                    <button id="add_button_${user.id}" style="background-color: green; color: white; cursor: pointer; display: none;" onclick="addUser('${user.id}', '${user.name}', '${user.email}', '${user.phone}', '${user.website}', '${user.address.city}', '${user.company.name}')">Add</button>
+                    <button id="open_button_${user.id}" style="display: block;cursor: pointer; background-color: yellow; color: black;" onclick="openUser(${user.id}, '${user.name}', '${user.company.name}')">Open</button>
                 </div>`;
         } else {
           html += `<div class="user-card">
@@ -28,8 +28,8 @@ async function fetchAllUsers() {
                     <div class="user-info"><strong>Website:</strong> ${user.website}</div>
                     <div class="user-info"><strong>City:</strong> ${user.address.city}</div>
                     <div class="user-info"><strong>Company:</strong> ${user.company.name}</div>
-                    <button id="add_button_${user.id}" style="background-color: green; color: white;" onclick="addUser('${user.id}', '${user.name}', '${user.email}', '${user.phone}', '${user.website}', '${user.address.city}', '${user.company.name}')">Add</button>
-                    <button id="open_button_${user.id}" style="display: none; background-color: yellow; color: black;" onclick="openUser(${user.id}, '${user.name}', '${user.company.name}')">Open</button>
+                    <button id="add_button_${user.id}" style="background-color: green; cursor: pointer; color: white;" onclick="addUser('${user.id}', '${user.name}', '${user.email}', '${user.phone}', '${user.website}', '${user.address.city}', '${user.company.name}')">Add</button>
+                    <button id="open_button_${user.id}" style="display: none; background-color: yellow; cursor: pointer; color: black;" onclick="openUser(${user.id}, '${user.name}', '${user.company.name}')">Open</button>
                 </div>`;
         }
       })
